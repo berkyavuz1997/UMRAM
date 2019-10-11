@@ -1,0 +1,151 @@
+
+*** Running vivado
+    with args -log bd_525a_eth_mac_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_525a_eth_mac_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source bd_525a_eth_mac_0.tcl -notrace
+config_ip_cache: Time (s): cpu = 00:00:00 ; elapsed = 00:03:02 . Memory (MB): peak = 278.809 ; gain = 8.012
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:03:54 . Memory (MB): peak = 348.113 ; gain = 138.137
+INFO: [Synth 8-638] synthesizing module 'bd_525a_eth_mac_0' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_1/synth/bd_525a_eth_mac_0.vhd:163]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_eth_mac_0_block' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_1/synth/bd_525a_eth_mac_0_block.vhd:223]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_eth_mac_0_axi4_lite_ipif_wrapper' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_1/synth/axi_ipif/bd_525a_eth_mac_0_axi4_lite_ipif_wrapper.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (1#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (2#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (3#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_eth_mac_0_axi4_lite_ipif_wrapper' (4#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_1/synth/axi_ipif/bd_525a_eth_mac_0_axi4_lite_ipif_wrapper.vhd:107]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_eth_mac_0_vector_decode' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_1/synth/statistics/bd_525a_eth_mac_0_vector_decode.vhd:95]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_eth_mac_0_vector_decode' (5#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_1/synth/statistics/bd_525a_eth_mac_0_vector_decode.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'LUT4' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4' (21#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized0' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized0' (21#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized1' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized1' (21#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized2' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized2' (21#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized3' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized3' (21#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized4' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized4' (21#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized5' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized5' (21#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized6' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized6' (21#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized0' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized0' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized1' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized1' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized2' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized2' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized3' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized3' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized4' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized4' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized5' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized5' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized6' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized6' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized7' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized7' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized8' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized8' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized9' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized9' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized10' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized10' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized11' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized11' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized12' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized12' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized13' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized13' (37#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized14' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized14' (38#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized15' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized15' (38#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized16' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized16' (38#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized17' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized17' (38#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized18' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized18' (38#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized19' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized19' (38#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized20' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized20' (38#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1D__parameterized21' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1D__parameterized21' (38#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:37164]
+INFO: [Synth 8-638] synthesizing module 'LUT3' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3' (39#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized0' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized0' (39#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized1' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized1' (39#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized2' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized2' (39#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized3' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized3' (39#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized4' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized4' (39#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized5' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized5' (39#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized6' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized6' (39#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'SRL16E' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43328]
+INFO: [Synth 8-256] done synthesizing module 'SRL16E' (40#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:43328]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_eth_mac_0_block' (44#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_1/synth/bd_525a_eth_mac_0_block.vhd:223]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_eth_mac_0' (45#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_1/synth/bd_525a_eth_mac_0.vhd:163]
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:03:58 . Memory (MB): peak = 440.102 ; gain = 230.125
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:03:59 . Memory (MB): peak = 440.102 ; gain = 230.125
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.219 . Memory (MB): peak = 872.219 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:04:30 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:04:30 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:04:30 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:04:34 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:04:43 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:04:53 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished Timing Optimization : Time (s): cpu = 00:00:53 ; elapsed = 00:04:54 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished Technology Mapping : Time (s): cpu = 00:00:56 ; elapsed = 00:04:56 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished IO Insertion : Time (s): cpu = 00:00:57 ; elapsed = 00:04:57 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:57 ; elapsed = 00:04:57 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:57 ; elapsed = 00:04:58 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:57 ; elapsed = 00:04:58 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:57 ; elapsed = 00:04:58 . Memory (MB): peak = 872.219 ; gain = 662.242
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:57 ; elapsed = 00:04:58 . Memory (MB): peak = 872.219 ; gain = 662.242
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    33|
+|2     |LUT1     |   119|
+|3     |LUT2     |   315|
+|4     |LUT3     |   229|
+|5     |LUT4     |   262|
+|6     |LUT5     |   316|
+|7     |LUT6     |   518|
+|8     |MUXCY    |    70|
+|9     |MUXF7    |    13|
+|10    |MUXF8    |     2|
+|11    |RAM64X1D |   160|
+|12    |SRL16E   |    27|
+|13    |XORCY    |    70|
+|14    |FDCE     |   107|
+|15    |FDPE     |    20|
+|16    |FDRE     |  2647|
+|17    |FDSE     |    77|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:57 ; elapsed = 00:04:58 . Memory (MB): peak = 872.219 ; gain = 662.242
+get_clocks: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1415.738 ; gain = 543.520
+synth_design: Time (s): cpu = 00:01:02 ; elapsed = 00:01:59 . Memory (MB): peak = 1415.742 ; gain = 1136.934

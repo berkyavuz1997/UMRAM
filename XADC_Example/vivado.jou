@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Apr 24 18:51:37 2019
+# Process ID: 15872
+# Current directory: C:/Users/Berk/Desktop/FPGA/UMRAM/XADC_Example
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent72 C:\Users\Berk\Desktop\FPGA\UMRAM\XADC_Example\XADC_Example.xpr
+# Log file: C:/Users/Berk/Desktop/FPGA/UMRAM/XADC_Example/vivado.log
+# Journal file: C:/Users/Berk/Desktop/FPGA/UMRAM/XADC_Example\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Berk/Desktop/FPGA/UMRAM/XADC_Example/XADC_Example.xpr
+open_hw
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+refresh_hw_server {localhost:3121}
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target

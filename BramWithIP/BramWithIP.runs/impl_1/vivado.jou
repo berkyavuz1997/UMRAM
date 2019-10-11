@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jun 27 17:09:06 2019
+# Process ID: 1468
+# Current directory: C:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.runs/impl_1
+# Command line: vivado.exe -log dizaynnn_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source dizaynnn_wrapper.tcl -notrace
+# Log file: C:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.runs/impl_1/dizaynnn_wrapper.vdi
+# Journal file: C:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source dizaynnn_wrapper.tcl -notrace

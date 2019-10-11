@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Jun 18 16:03:27 2019
+# Process ID: 476
+# Current directory: C:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.runs/design_1_axi_ethernet_0_1_synth_1
+# Command line: vivado.exe -log design_1_axi_ethernet_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_ethernet_0_1.tcl
+# Log file: C:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.runs/design_1_axi_ethernet_0_1_synth_1/design_1_axi_ethernet_0_1.vds
+# Journal file: C:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.runs/design_1_axi_ethernet_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_ethernet_0_1.tcl -notrace
+config_ip_cache: Time (s): cpu = 00:00:00 ; elapsed = 00:03:03 . Memory (MB): peak = 292.137 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:03:56 . Memory (MB): peak = 367.070 ; gain = 156.746
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_ethernet_0_1' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/synth/design_1_axi_ethernet_0_1.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'bd_525a' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/hdl/bd_525a.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_eth_buf_0' [C:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.runs/design_1_axi_ethernet_0_1_synth_1/.Xil/Vivado-476-Berk-Asus/realtime/bd_525a_eth_buf_0_stub.vhdl:113]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_eth_mac_0' [C:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.runs/design_1_axi_ethernet_0_1_synth_1/.Xil/Vivado-476-Berk-Asus/realtime/bd_525a_eth_mac_0_stub.vhdl:68]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0' [C:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.runs/design_1_axi_ethernet_0_1_synth_1/.Xil/Vivado-476-Berk-Asus/realtime/bd_525a_pcs_pma_0_stub.vhdl:60]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_xlconstant_phyadd_0' [C:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.runs/design_1_axi_ethernet_0_1_synth_1/.Xil/Vivado-476-Berk-Asus/realtime/bd_525a_xlconstant_phyadd_0_stub.vhdl:12]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a' (1#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/hdl/bd_525a.vhd:92]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_ethernet_0_1' (2#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/synth/design_1_axi_ethernet_0_1.vhd:130]
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:03:57 . Memory (MB): peak = 405.391 ; gain = 195.066
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:03:57 . Memory (MB): peak = 405.391 ; gain = 195.066
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 781.168 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:04:27 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:04:27 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:04:27 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:04:27 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:04:27 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:04:36 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:04:36 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:04:36 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:04:37 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:04:37 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:04:37 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:04:37 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:04:37 . Memory (MB): peak = 781.168 ; gain = 570.844
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:04:37 . Memory (MB): peak = 781.168 ; gain = 570.844
+
+Report Cell Usage: 
++------+---------------------------------+------+
+|      |Cell                             |Count |
++------+---------------------------------+------+
+|1     |bd_525a_eth_buf_0_bbox           |     1|
+|2     |bd_525a_eth_mac_0_bbox           |     1|
+|3     |bd_525a_pcs_pma_0_bbox           |     1|
+|4     |bd_525a_xlconstant_phyadd_0_bbox |     1|
++------+---------------------------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:04:37 . Memory (MB): peak = 781.168 ; gain = 570.844
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:01:28 . Memory (MB): peak = 826.137 ; gain = 534.000

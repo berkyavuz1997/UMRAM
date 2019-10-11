@@ -1,0 +1,16 @@
+set_property PACKAGE_PIN E19 [get_ports sys_clk_p]
+set_property IOSTANDARD LVDS [get_ports sys_clk_p]
+set_property PACKAGE_PIN E18 [get_ports sys_clk_n]
+set_property IOSTANDARD LVDS [get_ports sys_clk_n]
+
+set_property PACKAGE_PIN AV39 [get_ports reset]
+set_property IOSTANDARD LVCMOS18 [get_ports reset]
+
+set_property PACKAGE_PIN AN38 [get_ports ch1_p]
+set_property IOSTANDARD LVCMOS18 [get_ports ch1_p]
+set_property PACKAGE_PIN AP38 [get_ports ch1_n]
+set_property IOSTANDARD LVCMOS18 [get_ports ch1_n]
+set_property PACKAGE_PIN AM41 [get_ports ch2_p]
+set_property IOSTANDARD LVCMOS18 [get_ports ch2_p]
+set_property PACKAGE_PIN AM42 [get_ports ch2_n]
+set_property IOSTANDARD LVCMOS18 [get_ports ch2_n]

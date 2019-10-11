@@ -1,0 +1,1 @@
+set_property IODELAY_GROUP tri_mode_ethernet_mac_iodelay_grp [get_cells system_i/inst_lvds_receiver/inst/inst_lvds_receiver_prims/inst_idelayctrl]

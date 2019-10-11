@@ -1,0 +1,133 @@
+
+*** Running vivado
+    with args -log dizaynnn_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source dizaynnn_wrapper.tcl -notrace
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source dizaynnn_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.srcs/sources_1/bd/dizaynnn/ip/dizaynnn_Robust_Module_0_0/dizaynnn_Robust_Module_0_0.dcp' for cell 'dizaynnn_i/Robust_Module_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.srcs/sources_1/bd/dizaynnn/ip/dizaynnn_blk_mem_gen_0_0/dizaynnn_blk_mem_gen_0_0.dcp' for cell 'dizaynnn_i/blk_mem_gen_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.srcs/sources_1/bd/dizaynnn/ip/dizaynnn_clk_wiz_0_0/dizaynnn_clk_wiz_0_0.dcp' for cell 'dizaynnn_i/clk_wiz_0'
+INFO: [Netlist 29-17] Analyzing 29 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'dizaynnn_i/clk_wiz_0/reset' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [C:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.runs/impl_1/.Xil/Vivado-1468-Berk-Asus/dcp_3/dizaynnn_clk_wiz_0_0.edf:320]
+Parsing XDC File [c:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.srcs/sources_1/bd/dizaynnn/ip/dizaynnn_clk_wiz_0_0/dizaynnn_clk_wiz_0_0_board.xdc] for cell 'dizaynnn_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.srcs/sources_1/bd/dizaynnn/ip/dizaynnn_clk_wiz_0_0/dizaynnn_clk_wiz_0_0_board.xdc] for cell 'dizaynnn_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.srcs/sources_1/bd/dizaynnn/ip/dizaynnn_clk_wiz_0_0/dizaynnn_clk_wiz_0_0.xdc] for cell 'dizaynnn_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.srcs/sources_1/bd/dizaynnn/ip/dizaynnn_clk_wiz_0_0/dizaynnn_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.srcs/sources_1/bd/dizaynnn/ip/dizaynnn_clk_wiz_0_0/dizaynnn_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1237.727 ; gain = 570.742
+Finished Parsing XDC File [c:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.srcs/sources_1/bd/dizaynnn/ip/dizaynnn_clk_wiz_0_0/dizaynnn_clk_wiz_0_0.xdc] for cell 'dizaynnn_i/clk_wiz_0/inst'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.srcs/sources_1/bd/dizaynnn/ip/dizaynnn_clk_wiz_0_0/dizaynnn_clk_wiz_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp 'c:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.srcs/sources_1/bd/dizaynnn/ip/dizaynnn_blk_mem_gen_0_0/dizaynnn_blk_mem_gen_0_0.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:58 . Memory (MB): peak = 1237.727 ; gain = 990.340
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-1223] The version limit for your license is '2017.03' and will expire in -818 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.857 . Memory (MB): peak = 1237.727 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: c149c841
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: cf7808c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 1244.371 ; gain = 0.000
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant propagation | Checksum: cf7808c9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 1244.371 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 253 unconnected nets.
+INFO: [Opt 31-11] Eliminated 179 unconnected cells.
+Phase 3 Sweep | Checksum: 7667b2b1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.191 . Memory (MB): peak = 1244.371 ; gain = 0.000
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: 7667b2b1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.193 . Memory (MB): peak = 1244.371 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1244.371 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 7667b2b1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.194 . Memory (MB): peak = 1244.371 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 7667b2b1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1244.371 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+30 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:42 . Memory (MB): peak = 1244.371 ; gain = 6.645
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.runs/impl_1/dizaynnn_wrapper_opt.dcp' has been generated.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Berk/Desktop/FPGA/UMRAM/BramWithIP/BramWithIP.runs/impl_1/dizaynnn_wrapper_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7vx485t'
+INFO: [Common 17-1223] The version limit for your license is '2017.03' and will expire in -818 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1244.371 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1244.371 ; gain = 0.000
+ERROR: [Place 30-494] The design is empty
+Resolution: Check if opt_design has removed all the leaf cells of your design.  Check whether you have instantiated and connected all of the top level ports.
+Ending Placer Task | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1244.371 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+44 Infos, 1 Warnings, 0 Critical Warnings and 2 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 27 17:11:39 2019...

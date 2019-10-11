@@ -1,0 +1,113 @@
+
+*** Running vivado
+    with args -log design_1_microblaze_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_microblaze_0_1.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source design_1_microblaze_0_1.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:01:25 . Memory (MB): peak = 348.203 ; gain = 137.789
+INFO: [Synth 8-638] synthesizing module 'design_1_microblaze_0_1' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_1/synth/design_1_microblaze_0_1.vhd:190]
+INFO: [Synth 8-256] done synthesizing module 'design_1_microblaze_0_1' (88#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_1/synth/design_1_microblaze_0_1.vhd:190]
+Finished RTL Elaboration : Time (s): cpu = 00:00:46 ; elapsed = 00:02:01 . Memory (MB): peak = 644.414 ; gain = 434.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:49 ; elapsed = 00:02:06 . Memory (MB): peak = 644.414 ; gain = 434.000
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.509 . Memory (MB): peak = 989.543 ; gain = 0.824
+Finished Constraint Validation : Time (s): cpu = 00:01:34 ; elapsed = 00:03:09 . Memory (MB): peak = 989.543 ; gain = 779.129
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:34 ; elapsed = 00:03:09 . Memory (MB): peak = 989.543 ; gain = 779.129
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:34 ; elapsed = 00:03:09 . Memory (MB): peak = 989.543 ; gain = 779.129
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:59 ; elapsed = 00:03:39 . Memory (MB): peak = 989.543 ; gain = 779.129
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:06:20 ; elapsed = 00:08:35 . Memory (MB): peak = 989.543 ; gain = 779.129
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------+---------------------+---------------+----------------+
+|Module Name  | RTL Object          | Depth x Width | Implemented As | 
++-------------+---------------------+---------------+----------------+
+|FPU_ADDSUB   | r                   | 32x24         | LUT            | 
+|FPU_ADDSUB   | r                   | 32x24         | LUT            | 
+|PVR          | PVR_const[0]        | 16x32         | LUT            | 
+|FPU_ADDSUB   | r                   | 32x24         | LUT            | 
+|FPU_ADDSUB   | r                   | 32x24         | LUT            | 
+|Data_Flow_ff | PVR_I1/PVR_const[0] | 16x32         | LUT            | 
++-------------+---------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping  Report (see note below)
++-------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name  | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|MMU_UTLB_RAM | RAM_reg    | 512 x 36(WRITE_FIRST)  | W | R | 512 x 36(WRITE_FIRST)  | W | R | Port A and B     | 0      | 1      | 
++-------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+------------------------------------------+----------------+----------------------+--------------+
+|Module Name | RTL Object                               | Inference      | Size (Depth x Width) | Primitives   | 
++------------+------------------------------------------+----------------+----------------------+--------------+
+|Decode_ff   | PC_MODULE_I1/Use_BTC.bt_saved_pc_mem_reg | User Attribute | 16 x 30              | RAM32M x 5   | 
++------------+------------------------------------------+----------------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:06:40 ; elapsed = 00:08:56 . Memory (MB): peak = 1050.113 ; gain = 839.699
+Finished Timing Optimization : Time (s): cpu = 00:07:00 ; elapsed = 00:09:19 . Memory (MB): peak = 1093.176 ; gain = 882.762
+Finished Technology Mapping : Time (s): cpu = 00:07:27 ; elapsed = 00:09:52 . Memory (MB): peak = 1166.410 ; gain = 955.996
+Finished IO Insertion : Time (s): cpu = 00:07:30 ; elapsed = 00:09:55 . Memory (MB): peak = 1166.410 ; gain = 955.996
+Finished Renaming Generated Instances : Time (s): cpu = 00:07:30 ; elapsed = 00:09:55 . Memory (MB): peak = 1166.410 ; gain = 955.996
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:35 ; elapsed = 00:10:00 . Memory (MB): peak = 1166.410 ; gain = 955.996
+Finished Renaming Generated Ports : Time (s): cpu = 00:07:35 ; elapsed = 00:10:01 . Memory (MB): peak = 1166.410 ; gain = 955.996
+Finished Handling Custom Attributes : Time (s): cpu = 00:07:36 ; elapsed = 00:10:02 . Memory (MB): peak = 1166.410 ; gain = 955.996
+Finished Renaming Generated Nets : Time (s): cpu = 00:07:36 ; elapsed = 00:10:02 . Memory (MB): peak = 1166.410 ; gain = 955.996
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |AND2B1L    |    15|
+|2     |CARRY4     |    80|
+|3     |DSP48E1    |     1|
+|4     |DSP48E1_1  |     1|
+|5     |DSP48E1_2  |     1|
+|6     |DSP48E1_3  |     1|
+|7     |DSP48E1_4  |     1|
+|8     |DSP48E1_5  |     1|
+|9     |LUT1       |   140|
+|10    |LUT2       |   574|
+|11    |LUT3       |  1103|
+|12    |LUT4       |   767|
+|13    |LUT5       |  1209|
+|14    |LUT6       |  2656|
+|15    |LUT6_2     |    31|
+|16    |MULT_AND   |    10|
+|17    |MUXCY_L    |   804|
+|18    |MUXF7      |    23|
+|19    |MUXF8      |     3|
+|20    |RAM32M     |    21|
+|21    |RAMB36E1   |     3|
+|22    |RAMB36E1_1 |     2|
+|23    |RAMB36E1_2 |    16|
+|24    |RAMB36E1_3 |     1|
+|25    |SRL16E     |   179|
+|26    |SRLC16E    |     8|
+|27    |SRLC32E    |     2|
+|28    |XORCY      |   202|
+|29    |FDCE       |   141|
+|30    |FDR        |   143|
+|31    |FDRE       |  6682|
+|32    |FDS        |     3|
+|33    |FDSE       |    88|
++------+-----------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:07:36 ; elapsed = 00:10:02 . Memory (MB): peak = 1166.410 ; gain = 955.996
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:16 . Memory (MB): peak = 1618.266 ; gain = 451.855
+synth_design: Time (s): cpu = 00:07:57 ; elapsed = 00:10:18 . Memory (MB): peak = 1618.266 ; gain = 1353.672
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1618.266 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1618.266 ; gain = 0.000

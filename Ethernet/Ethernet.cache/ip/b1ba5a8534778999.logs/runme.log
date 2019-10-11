@@ -1,0 +1,157 @@
+
+*** Running vivado
+    with args -log bd_525a_pcs_pma_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_525a_pcs_pma_0.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source bd_525a_pcs_pma_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:01:05 . Memory (MB): peak = 360.570 ; gain = 150.293
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_support' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_support.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_block' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_block.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sgmii_adapt' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/sgmii_adapt/bd_525a_pcs_pma_0_sgmii_adapt.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_reset_sync' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_reset_sync.vhd:79]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_reset_sync' (1#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_reset_sync.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block' (2#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_clk_gen' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/sgmii_adapt/bd_525a_pcs_pma_0_clk_gen.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_johnson_cntr' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/sgmii_adapt/bd_525a_pcs_pma_0_johnson_cntr.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_johnson_cntr' (3#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/sgmii_adapt/bd_525a_pcs_pma_0_johnson_cntr.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_clk_gen' (4#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/sgmii_adapt/bd_525a_pcs_pma_0_clk_gen.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_tx_rate_adapt' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/sgmii_adapt/bd_525a_pcs_pma_0_tx_rate_adapt.vhd:94]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_tx_rate_adapt' (5#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/sgmii_adapt/bd_525a_pcs_pma_0_tx_rate_adapt.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_rx_rate_adapt' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/sgmii_adapt/bd_525a_pcs_pma_0_rx_rate_adapt.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_rx_rate_adapt' (6#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/sgmii_adapt/bd_525a_pcs_pma_0_rx_rate_adapt.vhd:100]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sgmii_adapt' (7#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/sgmii_adapt/bd_525a_pcs_pma_0_sgmii_adapt.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_transceiver' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_transceiver.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized2' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized2' (17#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_reset_wtd_timer' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_reset_wtd_timer.vhd:81]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_reset_wtd_timer' (18#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_reset_wtd_timer.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_GTWIZARD' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_gtwizard.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_GTWIZARD_init' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_gtwizard_init.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_GTWIZARD_multi_gt' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_gtwizard_multi_gt.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_GTWIZARD_GT' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_gtwizard_gt.vhd:215]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_GTWIZARD_GT' (19#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_gtwizard_gt.vhd:215]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_cpll_railing' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_cpll_railing.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_cpll_railing' (20#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_cpll_railing.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_GTWIZARD_multi_gt' (21#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_gtwizard_multi_gt.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_TX_STARTUP_FSM' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_tx_startup_fsm.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized4' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized4' (21#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized6' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized6' (21#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized8' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized8' (21#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized10' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized10' (21#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized12' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized12' (21#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized14' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized14' (21#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_TX_STARTUP_FSM' (22#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_tx_startup_fsm.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_RX_STARTUP_FSM' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_rx_startup_fsm.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized16' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized16' (22#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized18' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized18' (22#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized20' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized20' (22#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized22' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized22' (22#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized24' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized24' (22#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized26' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized26' (22#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized28' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized28' (22#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_RX_STARTUP_FSM' (23#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_rx_startup_fsm.vhd:130]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_GTWIZARD_init' (24#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_gtwizard_init.vhd:227]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_GTWIZARD' (25#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_gtwizard.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_rx_elastic_buffer' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_rx_elastic_buffer.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_rx_elastic_buffer' (26#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_rx_elastic_buffer.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_transceiver' (27#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/transceiver/bd_525a_pcs_pma_0_transceiver.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized43' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized43' (27#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized45' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_sync_block__parameterized45' (27#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_sync_block.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_block' (28#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_block.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_clocking' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_clocking.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_clocking' (29#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_clocking.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_resets' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_resets.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_resets' (30#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_resets.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'bd_525a_pcs_pma_0_gt_common' [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_gt_common.vhd:91]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_gt_common' (31#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_gt_common.vhd:91]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0_support' (32#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0_support.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'bd_525a_pcs_pma_0' (33#1) [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/synth/bd_525a_pcs_pma_0.vhd:192]
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:01:11 . Memory (MB): peak = 420.121 ; gain = 209.844
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:01:13 . Memory (MB): peak = 420.121 ; gain = 209.844
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 863.672 ; gain = 0.082
+Finished Constraint Validation : Time (s): cpu = 00:01:00 ; elapsed = 00:02:10 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:00 ; elapsed = 00:02:10 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:02:10 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:04 ; elapsed = 00:02:15 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:11 ; elapsed = 00:02:23 . Memory (MB): peak = 863.672 ; gain = 653.395
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++--------------------------+-----------------------------------------------------------------+----------------+----------------------+---------------+
+|Module Name               | RTL Object                                                      | Inference      | Size (Depth x Width) | Primitives    | 
++--------------------------+-----------------------------------------------------------------+----------------+----------------------+---------------+
+|bd_525a_pcs_pma_0_support | pcs_pma_block_i/transceiver_inst/rx_elastic_buffer_inst/ram_reg | User Attribute | 64 x 36              | RAM64M x 12   | 
++--------------------------+-----------------------------------------------------------------+----------------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:26 ; elapsed = 00:02:39 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished Timing Optimization : Time (s): cpu = 00:01:27 ; elapsed = 00:02:40 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished Technology Mapping : Time (s): cpu = 00:01:29 ; elapsed = 00:02:41 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished IO Insertion : Time (s): cpu = 00:01:29 ; elapsed = 00:02:42 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:29 ; elapsed = 00:02:42 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:30 ; elapsed = 00:02:43 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:30 ; elapsed = 00:02:43 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:30 ; elapsed = 00:02:43 . Memory (MB): peak = 863.672 ; gain = 653.395
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:30 ; elapsed = 00:02:43 . Memory (MB): peak = 863.672 ; gain = 653.395
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG          |     5|
+|2     |CARRY4        |    55|
+|3     |GTXE2_CHANNEL |     1|
+|4     |GTXE2_COMMON  |     1|
+|5     |IBUFDS_GTE2   |     1|
+|6     |LUT1          |   192|
+|7     |LUT2          |   107|
+|8     |LUT3          |   144|
+|9     |LUT4          |   152|
+|10    |LUT5          |   139|
+|11    |LUT6          |   184|
+|12    |MMCME2_ADV    |     1|
+|13    |MUXF7         |     3|
+|14    |RAM64M        |    10|
+|15    |SRL16         |     2|
+|16    |SRL16E        |     8|
+|17    |SRLC32E       |     7|
+|18    |FD            |   204|
+|19    |FDCE          |    16|
+|20    |FDP           |    48|
+|21    |FDPE          |     8|
+|22    |FDRE          |   938|
+|23    |FDSE          |    58|
++------+--------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:30 ; elapsed = 00:02:43 . Memory (MB): peak = 863.672 ; gain = 653.395
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Illegal to place instance U0/core_clocking_i/ibufds_gtrefclk on site AH8. The location site type does not match the instance type. [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/bd_525a_pcs_pma_0_board.xdc:4]
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Illegal to place instance U0/core_clocking_i/ibufds_gtrefclk on site AH8. The location site type does not match the instance type. [c:/Users/Berk/Desktop/FPGA/UMRAM/Ethernet/Ethernet.srcs/sources_1/bd/design_1/ip/design_1_axi_ethernet_0_1/bd_0/ip/ip_2/bd_525a_pcs_pma_0_board.xdc:5]
+get_clocks: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1417.789 ; gain = 551.949
+synth_design: Time (s): cpu = 00:01:32 ; elapsed = 00:02:39 . Memory (MB): peak = 1417.789 ; gain = 1143.215

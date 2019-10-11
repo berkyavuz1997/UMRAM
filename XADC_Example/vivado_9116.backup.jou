@@ -1,0 +1,102 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Apr 18 15:48:30 2019
+# Process ID: 9116
+# Current directory: E:/Gradient/XADC_Example
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4544 E:\Gradient\XADC_Example\XADC_Example.xpr
+# Log file: E:/Gradient/XADC_Example/vivado.log
+# Journal file: E:/Gradient/XADC_Example\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Gradient/XADC_Example/XADC_Example.xpr
+open_project E:/Gradient/ver8/project_1/project_1.xpr
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 5 ms
+close_sim
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 5 ms
+close_sim
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 5 ms
+close_sim
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 5 ms
+close_sim
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 5 ms
+close_sim
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 5 ms
+close_sim
+launch_simulation
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 5 ms
+close_sim
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 5 ms
+close_sim
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 5 ms
+close_sim
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 5 ms
+close_sim
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+run 5 ms
+close_sim
+launch_simulation
+source tap_count.tcl
+restart
+add_force {/tap_count/SYSCLK_P} -radix bin {1 0ns} {0 2500ps} -repeat_every 5000ps
+add_force {/tap_count/SYSCLK_N} -radix bin {0 0ns} {1 2500ps} -repeat_every 5000ps
+add_force {/tap_count/enable} -radix bin {0 0ns} {1 20000000ps} -repeat_every 40000000ps
+run 5 ms
+restart
+add_force {/tap_count/enable} -radix bin {0 0ns} {1 2000000ps} -repeat_every 4000000ps
+run 5 ms
